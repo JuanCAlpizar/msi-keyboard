@@ -2,24 +2,64 @@
 	"regions": {
 		"left": 1,
 		"middle": 2,
-		"right": 3
+		"right": 3,
+		"logo": 4,
+		"front-right-panel": 5,
+		"front-left-panel": 6,
+		"trackpad": 7
 	},
 	"colors": {
-		"black": 0,
-		"red": 1,
-		"orange": 2,
-		"yellow": 3,
-		"green": 4,
-		"cyan": 5,
-		"blue": 6,
-		"purple": 7,
-		"white": 8
+		"black": {
+			"redScale": 0,
+			"greenScale": 0,
+			"blueScale": 0
+		},
+		"red": {
+			"redScale": 255,
+			"greenScale": 0,
+			"blueScale": 0
+		},
+		"orange": {
+			"redScale": 255,
+			"greenScale": 165,
+			"blueScale": 0
+		},
+		"yellow": {
+			"redScale": 255,
+			"greenScale": 255,
+			"blueScale": 0
+		},
+		"green": {
+			"redScale": 0,
+			"greenScale": 255,
+			"blueScale": 0
+		},
+		"cyan": {
+			"redScale": 0,
+			"greenScale": 255,
+			"blueScale": 255
+		},
+		"blue": {
+			"redScale": 0,
+			"greenScale": 0,
+			"blueScale": 255
+		},
+		"purple": {
+			"redScale": 128,
+			"greenScale": 0,
+			"blueScale": 128
+		},
+		"white": {
+			"redScale": 255,
+			"greenScale": 255,
+			"blueScale": 255
+		}
 	},
 	"levels": {
-		"light": 3,
-		"low": 2,
-		"med": 1,
-		"high": 0
+		"light": 0.1,
+		"low": 0.25,
+		"med": 0.5,
+		"high": 1
 	},
 	"modes": {
 		"normal": 1,
